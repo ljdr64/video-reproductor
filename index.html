@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://ljdr64.github.io/video-reproductor/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Web site created using create-snowpack-app"
+    />
+    <!--
+      Snowpack will replace https://ljdr64.github.io/video-reproductor/ with the value you have for `baseUrl` in `snowpack.config.js`.
+      Make sure to update it with your GitHub Page URL. https://<your-username>.github.io/<your-repo-name>
+
+      More about config options:
+      - https://www.snowpack.dev/reference/configuration#buildoptions.baseurl
+    -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://ljdr64.github.io/video-reproductor/_dist_/index.css"
+    />
+    <title>Video Player</title>
+  </head>
+  <body class="h-24 bg-gradient-to-r from-blue-300 via-purple-300 to-green-300">
+    <!--
+      This HTML file is a template.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+
+      Start modyfing from here.
+    -->
+    <div class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p
+          class="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase"
+        >
+          PLATZI
+        </p>
+        <h3
+          class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
+        >
+          Video Player
+        </h3>
+        <div class="p-4"></div>
+        <video class="border-4 border-black mx-auto" width="400" controls id="video">
+          <source src="https://ljdr64.github.io/video-reproductor/_dist_/mov_bbb.mp4" type="video/mp4">
+          <source src="https://ljdr64.github.io/video-reproductor/_dist_/mov_bbb.ogg" type="video/ogg">
+          Your browser does not support HTML video.
+        </video>
+        <div class="p-4"></div>
+        <div class="flex justify-center">
+          <button class="border-2 border-black hover:border-2 hover:border-white rounded text-white text-center bg-blue-500 hover:bg-blue-700 px-4 py-2 m-2" id="btn-play">Play</button>
+          <button class="border-2 border-black hover:border-2 hover:border-white rounded text-white text-center bg-blue-500 hover:bg-blue-700 px-4 py-2 m-2" id="btn-pause">Pause</button>
+          <button class="border-2 border-black hover:border-2 hover:border-white rounded text-white text-center bg-blue-500 hover:bg-blue-700 px-4 py-2 m-2" id="btn-mute">Mute</button>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center mt-48 p-6 
+        text-sm">Courtesy of <a class="underline underline-offset-1" href="https://peach.blender.org">Big Buck Bunny</a> | Made by Laureano Rodriguez
+    </footer>
+
+    <!-- Add more scripts here -->
+    <script type="module" src="https://ljdr64.github.io/video-reproductor/_dist_/index.js"></script>
+  </body>
+</html>
