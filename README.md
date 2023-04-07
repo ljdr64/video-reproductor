@@ -1,6 +1,8 @@
 # Video Player
 Reproductor de Video. Proyecto del Curso de Manipulación del DOM de Platzi. 
 
+![video-player](https://user-images.githubusercontent.com/77581853/230555377-eb68d384-ad2c-4971-ae29-cb2e5e4a9c5d.png)
+
 ## Available Scripts
 
 ### npm start
